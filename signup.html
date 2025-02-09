@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SignUp - Rockstar Games</title>
+    <link rel="icon" type="image/jpg" href="images/favicon.jpg">
+    <link rel="stylesheet" href="signup.css">
+  </head>
+  <body>
+    <div class="form">
+      <img src="images/rstarlogo.png" class="logo" />
+      <div class="wrapper">
+        <h2>Create a Rockstar Games account</h2>
+        <input
+          type="email"
+          placeholder="Email"
+          class="input-box"
+          required
+        /><br />
+        <input
+          type="password"
+          placeholder="Password"
+          class="input-box"
+          required
+        /><br />
+        <input
+          type="text"
+          placeholder="Nickname"
+          class="input-box"
+          required
+        /><br />
+        <select name="country" id="count" class="country" placeholeder="Region/country">
+          <option value="Country/Region">Country/Region</option>
+          <option value="India"> India</option>
+          <option value="America">America</option>
+          <option value="Japan">Japan</option>
+          <option value="China">China</option>
+          <option value="Germany">Germany</option>
+          <option value="Australia">Australia</option>
+          <option value="England">England</option>
+          <option value="Brazil">Brazil</option>
+          <option value="Canada">Canada</option>
+          <option value="Italy">Italy</option>
+          <option value="NewZealand">New Zealand</option>
+        </select><br>
+        <div class="notifications">
+          <div><input type="checkbox" class="signed-in" id="keep-me-in" /></div>
+          <div><p class="news" for="keep-me-in">I would like to receive news and promotional messages from Rockstar Games and its affiliates</p></div><br />
+        </div>
+        <div class="buttons">
+          <a class="back">Back</a>
+          <a class="sign-in">Sign in</a>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="copyright"><p>© 2025 ROCKSTAR GAMES</p></div>
+        <br />
+        <div class="policy">
+          <p>PRIVACY POLICY | TERMS OF SERVICE | COOKIE SETTINGS</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

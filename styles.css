@@ -1,0 +1,510 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  margin: 0px;
+  padding: 0;
+}
+.nav-bar {
+  display: flex;
+  flex-direction: column;
+  padding: 3% 6%;
+}
+
+.logo-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.rstar-logo {
+  width: 35px;
+  cursor: pointer;
+}
+
+#navItem1 {
+  color: white;
+  font-family: "Roboto";
+  font-weight: bold;
+  margin-right: 10px;
+  margin: 10px;
+  text-decoration: none;
+}
+#navItem1:hover {
+  color: goldenrod;
+}
+#navItem1:active {
+  color: rgb(255, 194, 40);
+}
+#navItem2 {
+  color: white;
+  font-family: "Roboto";
+  font-weight: bold;
+  margin-right: 10px;
+  margin: 10px;
+  text-decoration: none;
+}
+#navItem2:hover {
+  color: goldenrod;
+}
+#navItem2:active {
+  color: rgb(255, 194, 40);
+}
+#navItem3 {
+  color: white;
+  font-family: "Roboto";
+  font-weight: bold;
+  margin-right: 10px;
+  margin: 10px;
+  text-decoration: none;
+}
+#navItem3:hover {
+  color: goldenrod;
+}
+#navItem3:active {
+  color: rgb(255, 194, 40);
+}
+#navItem4 {
+  color: white;
+  font-family: "Roboto";
+  font-weight: bold;
+  margin-right: 10px;
+  margin: 10px;
+  text-decoration: none;
+}
+#navItem4:hover {
+  color: goldenrod;
+}
+#navItem4:active {
+  color: rgb(255, 194, 40);
+}
+.nav-items-container-lg {
+  display: none;
+}
+
+.nav-items-container-sm {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+}
+.nv-items {
+  display: none;
+}
+
+.hr-tag {
+  margin: 10px;
+  border-style: solid;
+  border-width: 1px;
+  width: 100%;
+  border-color: #e7e5ea;
+}
+#xMark {
+  display: none;
+}
+@media screen and (min-width: 576px) {
+  #bar {
+    display: none;
+  }
+  #xMark {
+    display: none;
+  }
+  .nav-items-container-lg {
+    display: flex;
+  }
+  .nav-bar {
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  padding-top: 10px;
+}
+.hero-image {
+  width: 50%;
+}
+.hero-section-heading {
+  color: rgb(197, 190, 190);
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 700;
+}
+.trailer {
+  color: #fff;
+  font-family: "Roboto";
+  font-size: 40px;
+  font-weight: 800;
+  margin-top: 0px;
+}
+
+.custom-button {
+  border: 1px solid white;
+  color: white;
+  font-size: 20px;
+  font-weight: 750;
+  padding: 18px 54px;
+  background-color: transparent;
+  border-radius: 6px;
+  text-decoration: none;
+  font-family: "Roboto";
+  text-decoration: none;
+}
+.custom-button:hover {
+  background-color: goldenrod;
+  color: black;
+  border: none;
+}
+
+@media screen and (width <=905px) {
+  .custom-button {
+    border: 1px solid white;
+    color: white;
+    font-size: 20px;
+    font-weight: 750;
+    padding: 18px 30px;
+    background-color: transparent;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: "Roboto";
+  }
+}
+@media screen and (width <= 741px) {
+  .hero-image {
+    width: 100%;
+  }
+  .hero-section-heading {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (min-width: 742px) {
+  .hero-content {
+    display: flex;
+    flex-direction: row;
+  }
+  .hero-section-container {
+    order: 2;
+    margin-top: 50px;
+    margin-left: 30px;
+  }
+  .hero-image {
+    order: 1;
+    width: 70%;
+  }
+}
+/*----------------news wire-------------*/
+.newswire {
+  background-color: black;
+  padding: 20px;
+}
+.newswire-item-card {
+  border: 1px solid rgb(80, 77, 77);
+  border-radius: 10px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.newswire-cards-container {
+  display: flex;
+  flex-direction: column;
+}
+.newswire-heading {
+  color: white;
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: 700;
+}
+.newswire-card-title {
+  color: rgb(163, 161, 161);
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 24px;
+}
+.newswire-description {
+  color: white;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 650;
+}
+.newswire-item-image {
+  border-radius: 6px;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .newswire-cards-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .newswire-item-card {
+    width: 31%; /* Make sure 3 cards fit in a row with some margin */
+    margin: 10px; /* Space below each card */
+  }
+  .newswire-item-image {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .newswire-item-card {
+    width: 23%; /* 4 cards in a row */
+  }
+}
+
+/*--------------Games-------*/
+.trailer-price {
+  font-size: 16px;
+  border: 1px solid rgb(85, 84, 84);
+  border-radius: 5px;
+  padding: 8px 18px;
+  text-decoration: none;
+  color: whitesmoke;
+  font-family: "Roboto";
+  font-weight: 600;
+}
+.purchase-section {
+  display: flex;
+  
+}
+@media (min-width:767px) and (max-width:899px){
+  .trailer-price{
+    font-size: 16px;
+    border: 1px solid rgb(85, 84, 84);
+    border-radius: 5px;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: "Roboto";
+    font-weight: 600;
+  }
+  .price {
+    margin-left: 5px;
+    border: 1px solid black;
+    background-color: goldenrod;
+    color: black;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 15px;
+    text-decoration: none;
+    padding:8px 18px;
+    align-items: center;
+    vertical-align: center;
+  }
+  
+}
+.price {
+  margin-left: 20px;
+  border: 1px solid black;
+  background-color: goldenrod;
+  color: black;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 15px;
+  text-decoration: none;
+  padding:8px 18px;
+  align-items: center;
+  vertical-align: center;
+}
+.price:hover {
+  background-color: transparent;
+  color: white;
+  border: 1px solid rgb(85, 84, 84);
+}
+.price:active {
+  background-color: rgb(255, 188, 19);
+  color: black;
+  border: 1px solid black;
+}
+.watch {
+  text-decoration: none;
+}
+.watch:hover {
+  border: 1px solid white;
+}
+.watch:active {
+  background-color: rgb(255, 188, 19);
+  color: black;
+  border: 1px solid black;
+}
+/*-----------SUPPORT----------*/
+.text-box {
+  color: white;
+  text-align: center;
+  justify-content: center;
+  font-family: "Roboto";
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.text-box p {
+  color: #e4e4e4;
+}
+.text-box img {
+  width: 50px;
+}
+@media screen and (width<576px) {
+  .text-box {
+    text-align: left;
+    padding: 7%;
+  }
+  .text-box h1 {
+    font-size: 25px;
+  }
+}
+.subscribe {
+  border: 1px solid gray;
+  font-size: 16px;
+  font-weight: 700;
+  color: rgb(223, 223, 223);
+  padding: 15px 30px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+.subscribe:hover {
+  border: 1px solid white;
+}
+.subscribe:active {
+  border: 1px solid white;
+  color: white;
+}
+.follow {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(244, 236, 236);
+  padding: 3% 6%;
+  font-family: "Roboto";
+  font-size: 18px;
+}
+.follow .language a {
+  font-size: 15px;
+}
+.follow .lang {
+  width: 18px;
+  text-align: center;
+}
+.follow .down {
+  width: 17px;
+  margin-left: 4px;
+}
+.follow .careers a {
+  margin-right: 20px;
+}
+.follow .language:active {
+  color: white;
+}
+@media screen and (width<748px) {
+  .follow {
+    flex-direction: column;
+  }
+  .item {
+    margin-top: 20px;
+  }
+  .follow .careers a {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  .follow .language {
+    margin-top: 50px;
+  }
+  .follow .language:active {
+    color: white;
+  }
+  .address {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .address .location {
+    display: flex;
+    justify-content: center;
+  }
+}
+.language-link {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+}
+.language-icon {
+  margin: 0 8px;
+  vertical-align: center;
+}
+.language-text {
+  font-size: 18px;
+  vertical-align: middle;
+}
+.careers a:hover {
+  color: goldenrod;
+}
+.contact {
+  color: white;
+  text-align: center;
+  justify-content: center;
+  margin-top: 40px;
+  font-size: 25px;
+}
+.contact a {
+  margin-right: 20px;
+  color: white;
+}
+.contact a:hover {
+  color: rgb(199, 188, 188);
+}
+.contact a:active {
+  color: goldenrod;
+}
+.privacy-policy {
+  color: rgb(151, 151, 151);
+  font-family: "Roboto";
+  display: flex;
+  flex-direction: column;
+
+  padding: 3% 6%;
+}
+.privacy-policy a {
+  margin-top: 12px;
+}
+.privacy-policy a:hover {
+  color: white;
+}
+.address {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  padding: 3% 6%;
+  font-family: "Roboto";
+  font-weight: 700;
+}
+.address .location {
+  display: flex;
+}
+.address .location p {
+  margin-right: 18px;
+}
+.title {
+  color: white;
+  text-align: center;
+  font-family: "Roboto";
+  margin-top: 30px;
+}
+.title a {
+  font-weight: 600;
+  font-size: 18px;
+  color: white;
+}
+.title a:hover {
+  color: goldenrod;
+}

@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+body {
+  background-color: black;
+  color: white;
+}
+.logo {
+  width: 100px;
+  margin-bottom: 10px;
+  margin-top: 125px;
+}
+.form {
+  width: 90%;
+  max-width: 450px;
+  position: absolute;
+  top: 41%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.wrapper {
+  background-color: white;
+  color: black;
+  text-align: left;
+  padding: 3%;
+}
+h2 {
+  color: rgb(55, 46, 46);
+  text-align: center;
+}
+.input-box {
+  width: 95%;
+  height: 35px;
+  padding: 3%;
+  font-size: 17px;
+  margin-top: 2%;
+  
+}
+.input-box:active {
+  border: 1px solid blue;
+}
+.country{
+    width:95%;
+    height:35px;
+    padding:1%;
+    font-size: 17px;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-top: 2%;
+    font-family: "Roboto";
+}
+.signed-in {
+ 
+  justify-content: center;
+  vertical-align: center;
+}
+.notifications{
+    display: flex;
+    margin-top: 2%;
+    width:99%;
+}
+.notifications .news{
+    margin-left: 2%;
+    font-size: 14px;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-top: 5%;
+}
+.back {
+  text-decoration: none;
+  background-color: transparent;
+  color:black;
+  border:1px solid black;
+  padding: 2% 6%;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 2px;
+}
+.back:active{
+    background-color: whitesmoke;
+}
+.sign-in {
+  background-color: rgb(240, 179, 24);
+  padding: 2% 5%;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 2px;
+}
+.sign-in:hover {
+  background-color: goldenrod;
+}
+.sign-in:active {
+  background-color: gold;
+}
+.options img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin: 0px;
+  padding: 0px;
+  cursor: pointer;
+}
+.options {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  color: black;
+  margin-top: 22px;
+  padding: 4%;
+}
+.options p {
+  vertical-align: center;
+  justify-content: center;
+  margin-top: 4%;
+  margin-left: 2%;
+}
+.create-account {
+  margin-top: 3%;
+  font-size: 15px;
+}
+.create-account span a {
+  text-decoration: underline;
+  color: rgb(240, 179, 24);
+  cursor: pointer;
+}
+.footer {
+  font-size: 12px;
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+.footer span {
+  margin-top: 3%;
+}
+.footer .copyright {
+  color: rgb(140, 140, 140);
+}
+.footer .policy {
+  color: rgb(214, 214, 214);
+}
