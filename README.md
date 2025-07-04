@@ -8,7 +8,7 @@
 ## Live Website
 #### 🚀Experience the Website in Live!
 🔗Live Demo :
-[Rockstar Webclone Live Link](https://bhuvan-anupoju.github.io/Rockstar-Games-Website/)
+[Rockstar Games Web clone Live Link](https://bhuvan-anupoju.github.io/Rockstar-Games-Website/)
 ## Project Banner
 ![Project Banner](https://github.com/user-attachments/assets/d3047596-f5ca-43db-bcd3-a891356641a4)
 ## Features
