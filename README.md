@@ -36,7 +36,6 @@
 - Newswire Page
 ![Newswire Page Screenshots](https://github.com/user-attachments/assets/144e5358-0c4f-4a06-b285-009bf3c3df64)
 - Featured Games Page
-
 ![Featured Games Page](https://github.com/user-attachments/assets/087b50b6-b3cd-4609-a254-3b84135a8df4)
 - SignIn Page 
 ![SignIn Page](https://github.com/user-attachments/assets/1a82fa6e-2ff3-4b58-892c-51999fc1a814)
